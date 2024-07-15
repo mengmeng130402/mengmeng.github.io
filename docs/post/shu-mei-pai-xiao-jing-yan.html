@@ -9,9 +9,9 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="#一、树莓派的密码忘记
+<meta name="description" content="# 一、树莓派的密码忘记
 树莓派的密码忘记不需要重转系统，在刚刚刷好系统，手头没有显示器和键鼠时也可以这样
-##打开userconf.txt
+## 打开userconf.txt
 在里面写入
 ‘‘‘
 pi:$6$/4.VdYgDm7RJ0qM1$FwXCeQgDKkqrOU3RIRuDSKpauAbBvP11msq9X58c8Que2l1Dwq3vdJMgiZlQSbEXGaY5esVHGBNbCxKLVNqZW1
@@ -21,12 +21,12 @@ pi:$6$/4.VdYgDm7RJ0qM1$FwXCeQgDKkqrOU3RIRuDSKpauAbBvP11msq9X58c8Que2l1Dwq3vdJMgi
 用户名：pi
 密码：raspberry
 ’’’
-#二、开启ssh
+# 二、开启ssh
 在tf卡的根目录新建一个文件，叫 ssh ，没有后缀。">
 <meta property="og:title" content="树莓派小经验">
-<meta property="og:description" content="#一、树莓派的密码忘记
+<meta property="og:description" content="# 一、树莓派的密码忘记
 树莓派的密码忘记不需要重转系统，在刚刚刷好系统，手头没有显示器和键鼠时也可以这样
-##打开userconf.txt
+## 打开userconf.txt
 在里面写入
 ‘‘‘
 pi:$6$/4.VdYgDm7RJ0qM1$FwXCeQgDKkqrOU3RIRuDSKpauAbBvP11msq9X58c8Que2l1Dwq3vdJMgiZlQSbEXGaY5esVHGBNbCxKLVNqZW1
@@ -36,7 +36,7 @@ pi:$6$/4.VdYgDm7RJ0qM1$FwXCeQgDKkqrOU3RIRuDSKpauAbBvP11msq9X58c8Que2l1Dwq3vdJMgi
 用户名：pi
 密码：raspberry
 ’’’
-#二、开启ssh
+# 二、开启ssh
 在tf卡的根目录新建一个文件，叫 ssh ，没有后缀。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://mengmeng130402.github.io/mengmeng.github.io/post/shu-mei-pai-xiao-jing-yan.html">
@@ -96,10 +96,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>#一、树莓派的密码忘记<br>
-树莓派的密码忘记不需要重转系统，在刚刚刷好系统，手头没有显示器和键鼠时也可以这样<br>
-##打开userconf.txt<br>
-在里面写入<br>
+<div class="markdown-body" id="postBody"><h1>一、树莓派的密码忘记</h1>
+<p>树莓派的密码忘记不需要重转系统，在刚刚刷好系统，手头没有显示器和键鼠时也可以这样</p>
+<h2>打开userconf.txt</h2>
+<p>在里面写入<br>
 ‘‘‘<br>
 pi:$6$/4.VdYgDm7RJ0qM1$FwXCeQgDKkqrOU3RIRuDSKpauAbBvP11msq9X58c8Que2l1Dwq3vdJMgiZlQSbEXGaY5esVHGBNbCxKLVNqZW1<br>
 ’’’<br>
@@ -107,27 +107,26 @@ pi:$6$/4.VdYgDm7RJ0qM1$FwXCeQgDKkqrOU3RIRuDSKpauAbBvP11msq9X58c8Que2l1Dwq3vdJMgi
 ‘‘‘<br>
 用户名：pi<br>
 密码：raspberry<br>
-’’’<br>
-#二、开启ssh<br>
-在tf卡的根目录新建一个文件，叫 ssh ，没有后缀。<br>
-#三、连接wifi<br>
-##命令行的方式<br>
-修改/etc/wpa_supplicant/wpa_supplicant.conf<br>
-‘‘‘<br>
-sudo nano /etc/wpa_supplicant/wpa_supplicant.conf<br>
-’’’<br>
-把内容改为<br>
-‘‘‘<br>
-ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev<br>
-update_config=1<br>
-country=CN</p>
-<p>network={<br>
-ssid="wifi名称"<br>
-psk="密码"<br>
-key_mgmt=WPA-PSK<br>
-}<br>
-’’’<br>
-按照实际情况替换即可</p></div>
+’’’</p>
+<h1>二、开启ssh</h1>
+<p>在tf卡的根目录新建一个文件，叫 ssh ，没有后缀。</p>
+<h1>三、连接wifi</h1>
+<h2>命令行的方式</h2>
+<p>修改/etc/wpa_supplicant/wpa_supplicant.conf</p>
+<pre class="notranslate"><code class="notranslate">sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+</code></pre>
+<p>把内容改为</p>
+<pre class="notranslate"><code class="notranslate">ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=CN
+
+network={
+ssid="wifi名称"
+psk="密码"
+key_mgmt=WPA-PSK
+}
+</code></pre>
+<p>按照实际情况替换即可</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
