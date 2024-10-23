@@ -1,5 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Alpha的博客</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link><description>记录一些平时的那些事儿</description><copyright>Alpha的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/114229612?v=4</url><title>avatar</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link></image><lastBuildDate>Mon, 15 Jul 2024 03:09:36 +0000</lastBuildDate><managingEditor>Alpha的博客</managingEditor><ttl>60</ttl><webMaster>Alpha的博客</webMaster><item><title>树莓派小经验</title><link>https://mengmeng130402.github.io/mengmeng.github.io/post/shu-mei-pai-xiao-jing-yan.html</link><description># 一、树莓派的密码忘记&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Alpha的博客</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link><description>记录一些平时的那些事儿</description><copyright>Alpha的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/114229612?v=4</url><title>avatar</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link></image><lastBuildDate>Wed, 23 Oct 2024 14:30:03 +0000</lastBuildDate><managingEditor>Alpha的博客</managingEditor><ttl>60</ttl><webMaster>Alpha的博客</webMaster><item><title>树莓派小技巧</title><link>https://mengmeng130402.github.io/mengmeng.github.io/post/shu-mei-pai-xiao-ji-qiao.html</link><description># 一、树莓派的密码忘记&#13;
+树莓派的密码忘记不需要重转系统，在刚刚刷好系统，手头没有显示器和键鼠时也可以这样&#13;
+## 打开userconf.txt&#13;
+在里面写入&#13;
+```&#13;
+pi:$6$/4.VdYgDm7RJ0qM1$FwXCeQgDKkqrOU3RIRuDSKpauAbBvP11msq9X58c8Que2l1Dwq3vdJMgiZlQSbEXGaY5esVHGBNbCxKLVNqZW1 &#13;
+```&#13;
+密码：&#13;
+```&#13;
+用户名：pi&#13;
+密码：raspberry&#13;
+```&#13;
+# 二、开启ssh&#13;
+在tf卡的根目录新建一个文件，叫 ssh ，没有后缀。</description><guid isPermaLink="true">https://mengmeng130402.github.io/mengmeng.github.io/post/shu-mei-pai-xiao-ji-qiao.html</guid><pubDate>Wed, 23 Oct 2024 14:29:37 +0000</pubDate></item><item><title>树莓派小经验</title><link>https://mengmeng130402.github.io/mengmeng.github.io/post/shu-mei-pai-xiao-jing-yan.html</link><description># 一、树莓派的密码忘记&#13;
 树莓派的密码忘记不需要重转系统，在刚刚刷好系统，手头没有显示器和键鼠时也可以这样&#13;
 ## 打开userconf.txt&#13;
 在里面写入&#13;
