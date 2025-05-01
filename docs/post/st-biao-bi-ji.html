@@ -17,6 +17,7 @@
 $$
 \log_{b}{N} = \frac{\log_{a}{N}}{\log_{a}{b}}
 $$
+以b为底N的对数 = 以a为底N的对数 / 以a为底b的对数
 ## 预计算
 `st[p][i]`代表从i号开始共 2^p个数的最大值，也就是[i,i+2^p-1]区间的最大值
 当p为1时，`st[0][i]` 均为原值
@@ -74,6 +75,7 @@ int main() {
 $$
 \log_{b}{N} = \frac{\log_{a}{N}}{\log_{a}{b}}
 $$
+以b为底N的对数 = 以a为底N的对数 / 以a为底b的对数
 ## 预计算
 `st[p][i]`代表从i号开始共 2^p个数的最大值，也就是[i,i+2^p-1]区间的最大值
 当p为1时，`st[0][i]` 均为原值
@@ -199,7 +201,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>当a&gt;0，a≠1，b&gt;0，b≠1且N&gt;0时，<br>
 $$<br>
 \log_{b}{N} = \frac{\log_{a}{N}}{\log_{a}{b}}<br>
-$$</p>
+$$<br>
+以b为底N的对数 = 以a为底N的对数 / 以a为底b的对数</p>
 <h2>预计算</h2>
 <p><code class="notranslate">st[p][i]</code>代表从i号开始共 2^p个数的最大值，也就是[i,i+2^p-1]区间的最大值<br>
 当p为1时，<code class="notranslate">st[0][i]</code> 均为原值<br>
