@@ -1,11 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Alpha的博客</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link><description>记录一些平时的那些事儿</description><copyright>Alpha的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/114229612?v=4</url><title>avatar</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link></image><lastBuildDate>Thu, 01 May 2025 05:10:06 +0000</lastBuildDate><managingEditor>Alpha的博客</managingEditor><ttl>60</ttl><webMaster>Alpha的博客</webMaster><item><title>st表笔记</title><link>https://mengmeng130402.github.io/mengmeng.github.io/post/st-biao-bi-ji.html</link><description># st表
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Alpha的博客</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link><description>记录一些平时的那些事儿</description><copyright>Alpha的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/114229612?v=4</url><title>avatar</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link></image><lastBuildDate>Thu, 01 May 2025 05:12:08 +0000</lastBuildDate><managingEditor>Alpha的博客</managingEditor><ttl>60</ttl><webMaster>Alpha的博客</webMaster><item><title>st表笔记</title><link>https://mengmeng130402.github.io/mengmeng.github.io/post/st-biao-bi-ji.html</link><description># st表
 用于解决RMQ(区间最值查询)
 ## 对数换底公式
 当a&gt;0，a≠1，b&gt;0，b≠1且N&gt;0时，
-$$
-\log_{b}{N} = \frac{\log_{a}{N}}{\log_{a}{b}}
-$$
 以b为底N的对数 = 以a为底N的对数 / 以a为底b的对数
 ## 预计算
 `st[p][i]`代表从i号开始共 2^p个数的最大值，也就是[i,i+2^p-1]区间的最大值
