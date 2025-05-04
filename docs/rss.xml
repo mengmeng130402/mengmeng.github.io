@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Alpha的博客</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link><description>记录一些平时的那些事儿</description><copyright>Alpha的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/114229612?v=4</url><title>avatar</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link></image><lastBuildDate>Thu, 01 May 2025 07:49:28 +0000</lastBuildDate><managingEditor>Alpha的博客</managingEditor><ttl>60</ttl><webMaster>Alpha的博客</webMaster><item><title>六年级圆、扇形、圆柱与圆锥知识点整理</title><link>https://mengmeng130402.github.io/mengmeng.github.io/post/liu-nian-ji-yuan-%E3%80%81-shan-xing-%E3%80%81-yuan-zhu-yu-yuan-zhui-zhi-shi-dian-zheng-li.html</link><description># 六年级圆、扇形、圆柱与圆锥知识点整理
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Alpha的博客</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link><description>记录一些平时的那些事儿</description><copyright>Alpha的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/114229612?v=4</url><title>avatar</title><link>https://mengmeng130402.github.io/mengmeng.github.io</link></image><lastBuildDate>Sun, 04 May 2025 01:55:10 +0000</lastBuildDate><managingEditor>Alpha的博客</managingEditor><ttl>60</ttl><webMaster>Alpha的博客</webMaster><item><title>bit树笔记</title><link>https://mengmeng130402.github.io/mengmeng.github.io/post/bit-shu-bi-ji.html</link><description># bit树
+## LSB
+### 什么是LSB
+LSB全称'Least Significant Bit'，即“最低有效位”，也就是数字二进制中从低位开始的第一个1在哪一位
+### 代码
+```c++
+int LSB(int a){
+	return a &amp; (-a);
+} 
+/*代码返回的是最低有效位连带后面的0组成的数
+如8的二进制为1000，那么函数返回的就是8 ，即二进制的1000
+*/
+```
+## bit树
+### 什么是bit树
+bit树状数组可以解决连续和、前缀和的动态查询.
+bit树需要一个数组，这里叫bit
+那么bit[i]也就是以i结尾，长度为LSB（i） 的区间和。</description><guid isPermaLink="true">https://mengmeng130402.github.io/mengmeng.github.io/post/bit-shu-bi-ji.html</guid><pubDate>Fri, 02 May 2025 00:54:50 +0000</pubDate></item><item><title>六年级圆、扇形、圆柱与圆锥知识点整理</title><link>https://mengmeng130402.github.io/mengmeng.github.io/post/liu-nian-ji-yuan-%E3%80%81-shan-xing-%E3%80%81-yuan-zhu-yu-yuan-zhui-zhi-shi-dian-zheng-li.html</link><description># 六年级圆、扇形、圆柱与圆锥知识点整理
 
 ---
 
