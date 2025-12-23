@@ -48,8 +48,8 @@ TLE=Time Limit Enough=时间充裕 MLE=Memory Limit Enough=内存充裕
 CE=Compile Easily=轻松通过编译 PC：Past Compile = 通过编译 
 RE=Run Excellently=完美运行 
 RE：Right Enough = 太过正确 UKE=Unbelievably Keep Enough Score=难以置信地保持足够的分数 
-UKE=United~Kingdom~Error=United Kingdom Error=英国的错误(不关我事) 
-AU=All~Unaccepted=全都不正确 AK=All~knwon=全部已知(数据) 
+UKE=United\~Kingdom\~Error=United Kingdom Error=英国的错误(不关我事) 
+AU=All\~Unaccepted=全都不正确 AK=All\~knwon=全部已知(数据) 
 OLE：Output Limit Enough = 输出充裕 
 UKE:Unknown Exactness = 不明情况地正确
 
